@@ -1,0 +1,13 @@
+<head>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+</head> 
+<body>
+<form method="post" action="/feedback.php">
+	<label>Name:</label> <div><input type="text" name="name" class="input" /></div>
+	<label>Email:</label> <div><input type="text" name="email" class="input" /></div>
+	<label>Phone:</label> <div><input type="text" name="phone" class="input"/></div>
+	<label>Message:</label> <div><textarea class="textarea" name="text"></textarea></div>
+	<div class="g-recaptcha" data-sitekey="6LfP0WAUAAAAAKD3vvBG7YAP8P5AUyhhEf6NhO_d"></div>	
+	<input type="submit" value="Submit" class="submit" />
+</form>
+</body>
